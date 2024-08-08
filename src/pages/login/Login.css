@@ -1,0 +1,16 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.logo {
+    max-width: 300px;
+}
+
+.agreement-text {
+    max-width: 240px;
+    text-align: center;
+}
