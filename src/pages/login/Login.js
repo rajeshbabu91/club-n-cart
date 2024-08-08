@@ -11,8 +11,7 @@ function Login() {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        console.log('##### Mobile Number: ', mobileNumber);
-        console.log('##### Email: ', email);
+        // TODO: HANDLE THE POST CALL
     };
 
     return (
@@ -32,7 +31,7 @@ function Login() {
             </Form>
 
             <p className='mt-4 agreement-text'>
-                By Continuing, you agree to our <a href='/terms-of-use'>Terms of Use</a> & <a href='/privacy-policy'>Privacy Policy</a>
+                By Continuing, you agree to our <a className="cnc-text-col-rose text-decoration-none" href='/terms-of-use'>Terms of Use</a> & <a className="cnc-text-col-rose text-decoration-none" href='/privacy-policy'>Privacy Policy</a>
             </p>
         </div>
     );

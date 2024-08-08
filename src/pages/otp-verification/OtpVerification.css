@@ -1,0 +1,22 @@
+.verification-container {
+    max-width: 420px;
+    margin: auto;
+}
+
+.otp-container {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.otp-box {
+    width: 36px !important;
+    height: 36px;
+}
+
+.timer {
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
